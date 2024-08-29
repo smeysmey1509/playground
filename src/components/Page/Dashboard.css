@@ -1,0 +1,16 @@
+.sdx--sidebar ul li {
+  position: relative;
+}
+.sdx--sidebar ul li:hover {
+  color: #3ebfc2;
+  transition: 0.5s;
+}
+.sdx--sidebar ul li svg:nth-child(1) {
+  font-size: 16px;
+}
+
+.sdx--sidebar ul li svg:last-child {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
