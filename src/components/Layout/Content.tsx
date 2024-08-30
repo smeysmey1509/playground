@@ -1,7 +1,15 @@
 import React from "react";
 
 const Content = () => {
-  return <div>Content</div>;
+  return (
+    <section
+      style={{
+        padding: "18px",
+      }}
+    >
+      Content
+    </section>
+  );
 };
 
 export default Content;

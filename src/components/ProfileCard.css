@@ -1,0 +1,86 @@
+.profile-card {
+  width: 300px;
+  height: auto;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  text-align: center;
+  color: #4b575f;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.profile-card-header {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.profile-card-image {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.profile-card-body h2 {
+  font-size: 1.5em;
+  margin: 10px 0 5px;
+}
+
+.profile-card-body h3 {
+  font-size: 1em;
+  font-weight: normal;
+  color: #b4b4b4;
+  margin-bottom: 20px;
+}
+
+.profile-card-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stat-number {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 0.8em;
+  color: #b4b4b4;
+}
+
+.profile-card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.9em;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.follow-btn {
+  background-color: #ff5f7e;
+  color: white;
+}
+
+.follow-btn:hover {
+  background-color: #ff7e5f;
+}
+
+.message-btn {
+  background-color: #fff;
+  color: #ff5f7e;
+}
+
+.message-btn:hover {
+  background-color: #f0f0f0;
+}
